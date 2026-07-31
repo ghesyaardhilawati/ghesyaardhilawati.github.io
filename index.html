@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="menu">
+        <h2>gheardh</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="home-container">
+        <img
+          src="Foto Ghesya.jpg.jpeg"
+          alt="Foto Ghesya.jpg"
+          height="300px"
+          width="200px"
+        />
+        <div class="home-text">
+          <h2>Halo, perkenalkan saya</h2>
+
+          <h1>Ghesya Ardhilawati Budiman</h1>
+          <p>
+            Saya siswi jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Saya
+            memiliki minat dalam bidang teknologi, desain, dan pengembangan
+            website. Saat ini saya sedang mempelajari HTML, CSS, dan JavaScript
+            untuk membuat website yang menarik dan interaktif.
+          </p>
+
+          <p>
+            Sejak SMP sampai sekarang saya aktif mengikuti berbagai kegiatan
+            sekolah seperti organisasi dan ekstrakurikuler yang dapat membantu
+            saya dalam mengembangkan kemampuan komunikasi, kerja sama tim,
+            tanggung jawab, dan kreativitas. Saya juga senang mencoba hal-hal
+            baru dan terus belajar untuk meningkatkan kemampuan diri.
+          </p>
+
+          <p>
+            Melalui website portofolio ini, saya ingin menampilkan kemampuan,
+            pengalaman, dan hasil pembelajaran yang telah saya pelajari di
+            bidang teknologi dan desain digital.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill">
+      <h2>Skill & Pengalaman</h2>
+
+      <p>Berikut beberapa kemampuan dan pengalaman yang saya miliki.</p>
+
+      <div class="skill-list">
+        <div class="skill-box">
+          <h3>HTML, CSS, & JS</h3>
+
+          <p>
+            Membuat website sederhana dengan tampilan yang menarik dan
+            responsive menggunakan HTML, CSS, dan JS.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <h3>Microsoft Word & Excel</h3>
+
+          <p>
+            Menggunakan Microsoft Word dan Excel untuk membuat dokumen, tabel,
+            dan mengolah data sederhana.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <h3>Design Editing</h3>
+
+          <p>
+            Membuat desain di Canva dan mengedit video sederhana menggunakan
+            CapCut.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <h3>Organisasi</h3>
+
+          <p>
+            Aktif mengikuti organisasi dan ekstrakurikuler sekolah untuk
+            meningkatkan kerja sama tim dan komunikasi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Galeri Proyek</h2>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="web.png" alt="web" />
+          <p>
+            Hasil praktik coding saat belajar membuat web memakai HTML/CSS dan
+            mengatur logika JavaScript. Seru sekaligus pusing pas belajar nyari
+            kode yang error!"
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="word&excel.png" alt="word&excel" />
+          <p>
+            Tugas sekolah untuk mengasah skill administrasi digital. Di sini
+            saya belajar bagaimana caranya mengolah data rumus Excel otomatis
+            dan merapikan format laporan dokumen.
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="desain_editing.png" alt="desain_editing" />
+          <p>
+            Tempat saya menyalurkan hobi saat waktu luang, mulai dari membuat
+            kreativitas scrapbook digital yang estetik sampai mengedit video
+            vlog dokumentasi jalan-jalan atau keseharian.
+          </p>
+        </div>
+        <div class="gallery-item">
+          <img src="organisasi.png" alt="organisasi" />
+          <p>
+            Pengalaman menyenangkan di balik layar kepanitiaan saat acara
+            sekolah. Belajar tanggung jawab, manajemen waktu, menyusun proposal
+            kegiatan, sampai cara kerja sama dengan tim.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <p>
+        Jika ingin bertanya atau bekerja sama, silakan hubungi saya melalui form
+        di bawah ini.
+      </p>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="nama" placeholder="Masukkan Nama" />
+
+        <input type="email" id="email" placeholder="Masukkan Email" />
+
+        <textarea id="pesan" placeholder="Tulis Pesan"></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
+    <button id="scrollTop" onclick="scrollToTop()">↑ Top</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
